@@ -1,6 +1,12 @@
 #
 # run_analysis.R is a script for merging the test and train datasets for Samsung Galaxy II phone 
 #
+# 0.  Init: Checks to make sure that required packages and data are available
+# 1.  Merges the training and the test datasets to create one merged data set
+# 2.	Extracts only mean and standard deviation for each measurement
+# 3.	Uses descriptive activity names to name the activities in the data set
+# 4.	Appropriately labels the data set with descriptive activity names
+# 5.	Creates a second tidy data set with the average of each variable for each activity and subject
 
 if (!require("plyr")) {
   install.packages("plyr")
