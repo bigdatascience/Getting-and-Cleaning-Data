@@ -7,6 +7,7 @@
 # 3.	Uses descriptive activity names to name the activities in the data set
 # 4.	Appropriately labels the data set with descriptive activity names
 # 5.	Creates a second tidy data set with the average of each variable for each activity and subject
+#
 
 if (!require("plyr")) {
   install.packages("plyr")
